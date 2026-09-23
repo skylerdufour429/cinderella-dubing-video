@@ -1,90 +1,106 @@
-# Movie Dub Collection
+# Cinderella Dub Collection
 
-GitHub Pages + GitHub Codespaces-ready movie dubbing archive.
+GitHub Pages + GitHub Codespaces-ready movie dub archive.
 
 ## Movie Information
 
-Movie: Cinderella
+Title:
+Cinderella
 
-Year: 1950
+Year:
+1950
 
-Studio: Walt Disney Productions
+Studio:
+Walt Disney Productions
 
-Category: Animated Feature
+Category:
+Animated Feature
+
 
 ## Features
 
 - Movie metadata display
-- Language dub collection
+- Language list
 - MP4 download buttons
-- Search languages
-- GitHub Pages hosting support
-- GitHub Codespaces development support
+- Static GitHub Pages hosting
+- Codespaces compatible
 
-## Setup
 
-1. Clone repository
+## Available Languages
 
-2. Add MP4 files to:
+- Albanian
+- Arabic
+- Bengali
+- Bulgarian
+- Cantonese
+- Croatian
+- Czech
+- Danish
+- Dutch
+- Finnish
+- French
+- German
+- Greek
+- Hebrew
+- Hindi
+- Hmong
+- Hungarian
+- Icelandic
+- Indonesian
+- Italian
+- Japanese
+- Kazakh
+- Khmer
+- Korean
+- Kurdish
+- Malay
+- Mandarin Chinese
+- Mizo
+- Norwegian
+- Persian
+- Polish
+- Portuguese
+- Romanian
+- Russian
+- Serbian
+- Slovak
+- Spanish
+- Swedish
+- Tamil
+- Teochew
+- Thai
+- Turkish
+- Ukrainian
+- Uyghur
+- Vietnamese
 
-media/cinderella/
 
-3. Update:
+## GitHub Pages Setup
 
-movies/cinderella.json
+1. Upload project to GitHub.
+2. Open:
 
-4. Run locally:
+Settings → Pages
 
-Open index.html
+3. Select:
 
-## GitHub Pages
+Deploy from branch
 
-Repository Settings → Pages → Deploy from main branch
+4. Choose:
 
-## Supported Languages
+main branch / root folder
 
-Albanian  
-Arabic  
-Bengali  
-Bulgarian  
-Cantonese  
-Croatian  
-Czech  
-Danish  
-Dutch  
-Finnish  
-French  
-German  
-Greek  
-Hebrew  
-Hindi  
-Hmong  
-Hungarian  
-Icelandic  
-Indonesian  
-Italian  
-Japanese  
-Kazakh  
-Khmer  
-Korean  
-Kurdish  
-Malay  
-Mandarin Chinese  
-Mizo  
-Norwegian  
-Persian  
-Polish  
-Portuguese  
-Romanian  
-Russian  
-Serbian  
-Slovak  
-Spanish  
-Swedish  
-Tamil  
-Teochew  
-Thai  
-Turkish  
-Ukrainian  
-Uyghur  
-Vietnamese
+5. Save.
+
+
+## GitHub Codespaces
+
+Open:
+
+Code → Codespaces → Create codespace
+
+Run locally:
+
+python -m http.server 8000
+
+Open the forwarded port.
