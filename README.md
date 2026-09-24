@@ -1,106 +1,72 @@
-# Cinderella Dub Collection
+# Cinderella — 1950 Dub Collection
 
-GitHub Pages + GitHub Codespaces-ready movie dub archive.
+A GitHub Pages-ready web app for organizing and providing access to legally hosted MP4 language dubs of Walt Disney Productions' *Cinderella* (1950).
 
 ## Movie Information
 
-Title:
-Cinderella
-
-Year:
-1950
-
-Studio:
-Walt Disney Productions
-
-Category:
-Animated Feature
-
+* **Movie:** Cinderella
+* **Year:** 1950
+* **Studio:** Walt Disney Productions
+* **Category:** Animated Feature
+* **Languages:** 45
 
 ## Features
 
-- Movie metadata display
-- Language list
-- MP4 download buttons
-- Static GitHub Pages hosting
-- Codespaces compatible
+* Responsive movie information page
+* Language search
+* Language filtering
+* MP4 download buttons
+* HTML5 video player
+* Direct MP4 URLs
+* GitHub Pages compatible
+* GitHub Codespaces compatible
+* No backend required
 
+## Running in GitHub Codespaces
 
-## Available Languages
+Open the repository in GitHub Codespaces and run a local HTTP server:
 
-- Albanian
-- Arabic
-- Bengali
-- Bulgarian
-- Cantonese
-- Croatian
-- Czech
-- Danish
-- Dutch
-- Finnish
-- French
-- German
-- Greek
-- Hebrew
-- Hindi
-- Hmong
-- Hungarian
-- Icelandic
-- Indonesian
-- Italian
-- Japanese
-- Kazakh
-- Khmer
-- Korean
-- Kurdish
-- Malay
-- Mandarin Chinese
-- Mizo
-- Norwegian
-- Persian
-- Polish
-- Portuguese
-- Romanian
-- Russian
-- Serbian
-- Slovak
-- Spanish
-- Swedish
-- Tamil
-- Teochew
-- Thai
-- Turkish
-- Ukrainian
-- Uyghur
-- Vietnamese
+```bash
+python3 -m http.server 8000
+```
 
+Then open port `8000`.
 
-## GitHub Pages Setup
+## GitHub Pages
 
-1. Upload project to GitHub.
-2. Open:
-
-Settings → Pages
-
-3. Select:
-
-Deploy from branch
-
-4. Choose:
-
-main branch / root folder
-
+1. Push this project to a GitHub repository.
+2. Open **Settings → Pages**.
+3. Select **Deploy from a branch**.
+4. Select the `main` branch and `/ (root)`.
 5. Save.
+6. Your site will be available at:
 
+```text
+https://YOUR-USERNAME.github.io/cinderella-dub-collection/
+```
 
-## GitHub Codespaces
+## Media
 
-Open:
+The web application references MP4 files under:
 
-Code → Codespaces → Create codespace
+```text
+/media/
+```
 
-Run locally:
+For files stored directly in this repository, use paths such as:
 
-python -m http.server 8000
+```text
+media/cinderella-1950-french.mp4
+```
 
-Open the forwarded port.
+For externally hosted files, update the URLs in `script.js`.
+
+## Copyright
+
+Make sure every video file is legally authorized for hosting and distribution before adding it to the repository or linking to it.
+
+## License
+
+The source code for this example can be licensed separately from the movie and media files.
+
+The movie, soundtrack, dubbed audio, artwork, trademarks, and other media may be subject to separate copyright and trademark rights.
