@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinderella Dub Collection</title>
+    <meta
+      name="description"
+      content="Cinderella (1950) multilingual dub collection with MP4 downloads for each available language."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <p class="eyebrow">Dub Collection</p>
+        <h1>Cinderella</h1>
+        <div class="movie-meta" aria-label="Movie metadata">
+          <span>1950</span>
+          <span>Walt Disney Productions</span>
+          <span>Animated Feature</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="movie-card" aria-labelledby="movie-details-heading">
+          <div class="movie-card-header">
+            <h2 id="movie-details-heading">Movie Details</h2>
+          </div>
+          <ul class="details-list">
+            <li><strong>Movie:</strong> Cinderella</li>
+            <li><strong>Year:</strong> 1950</li>
+            <li><strong>Studio:</strong> Walt Disney Productions</li>
+            <li><strong>Category:</strong> Animated Feature</li>
+            <li><strong>Languages:</strong> 45</li>
+          </ul>
+        </section>
+
+        <section class="downloads" aria-labelledby="available-languages-heading">
+          <div class="downloads-header">
+            <h2 id="available-languages-heading">Available Languages</h2>
+            <label class="search-label" for="languageSearch">
+              <span>Search</span>
+              <input
+                id="languageSearch"
+                type="search"
+                placeholder="Search by language"
+                aria-label="Search available language dubs"
+              />
+            </label>
+          </div>
+          <div id="languageList" class="language-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
