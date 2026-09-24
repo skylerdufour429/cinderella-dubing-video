@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinderella Dub Collection</title>
+    <meta
+      name="description"
+      content="Cinderella (1950) multilingual dub collection featuring MP4 downloads in 45 languages."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="eyebrow">Dub Collection</p>
+        <h1>Cinderella</h1>
+        <div class="movie-meta">
+          <span>1950</span>
+          <span>Walt Disney Productions</span>
+          <span>Animated Feature</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="toolbar" aria-label="Language search and filters">
+        <label class="search-wrap" for="languageFilter">
+          <span>Search language</span>
+          <input id="languageFilter" type="search" placeholder="Type a language..." />
+        </label>
+        <div class="results-pill">
+          <strong id="languageCount">0</strong>
+          <span>available</span>
+        </div>
+      </section>
+
+      <section class="language-panel">
+        <div id="languageList" class="language-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
