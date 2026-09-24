@@ -1,4 +1,3 @@
-````markdown
 # Cinderella Dub Collection
 
 A GitHub Pages + GitHub Codespaces-ready web application for organizing
