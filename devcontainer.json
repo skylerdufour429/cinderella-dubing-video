@@ -1,0 +1,15 @@
+{
+  "name": "Cinderella Dub Collection",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer"
+      ]
+    }
+  },
+  "forwardPorts": [
+    5500
+  ],
+  "postCreateCommand": "echo 'Cinderella Dub Collection ready!'"
+}
