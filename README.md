@@ -1,76 +1,51 @@
-# Cinderella Dub Collection
+# Media
 
-A GitHub Pages-ready collection of Cinderella (1950) dubbed MP4 downloads.
+Place authorized MP4 files in this directory.
 
-## Movie
+Expected filenames:
 
-- Movie: Cinderella
-- Year: 1950
-- Studio: Walt Disney Productions
-- Category: Animated Feature
-- Languages: 45
-
-## Available Languages
-
-- Albanian
-- Arabic
-- Bengali
-- Bulgarian
-- Cantonese
-- Croatian
-- Czech
-- Danish
-- Dutch
-- Finnish
-- French
-- German
-- Greek
-- Hebrew
-- Hindi
-- Hmong
-- Hungarian
-- Icelandic
-- Indonesian
-- Italian
-- Japanese
-- Kazakh
-- Khmer
-- Korean
-- Kurdish
-- Malay
-- Mandarin Chinese
-- Mizo
-- Norwegian
-- Persian
-- Polish
-- Portuguese
-- Romanian
-- Russian
-- Serbian
-- Slovak
-- Spanish
-- Swedish
-- Tamil
-- Teochew
-- Thai
-- Turkish
-- Ukrainian
-- Uyghur
-- Vietnamese
-
-## Features
-
-- Responsive design
-- Searchable language list
-- Play and download MP4 links
-- No backend required
-- GitHub Pages compatible
-- GitHub Codespaces compatible
-
-## Run locally
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open http://localhost:8000 in your browser.
+- cinderella-1950-albanian.mp4
+- cinderella-1950-arabic.mp4
+- cinderella-1950-bengali.mp4
+- cinderella-1950-bulgarian.mp4
+- cinderella-1950-cantonese.mp4
+- cinderella-1950-croatian.mp4
+- cinderella-1950-czech.mp4
+- cinderella-1950-danish.mp4
+- cinderella-1950-dutch.mp4
+- cinderella-1950-finnish.mp4
+- cinderella-1950-french.mp4
+- cinderella-1950-german.mp4
+- cinderella-1950-greek.mp4
+- cinderella-1950-hebrew.mp4
+- cinderella-1950-hindi.mp4
+- cinderella-1950-hmong.mp4
+- cinderella-1950-hungarian.mp4
+- cinderella-1950-icelandic.mp4
+- cinderella-1950-indonesian.mp4
+- cinderella-1950-italian.mp4
+- cinderella-1950-japanese.mp4
+- cinderella-1950-kazakh.mp4
+- cinderella-1950-khmer.mp4
+- cinderella-1950-korean.mp4
+- cinderella-1950-kurdish.mp4
+- cinderella-1950-malay.mp4
+- cinderella-1950-mandarin-chinese.mp4
+- cinderella-1950-mizo.mp4
+- cinderella-1950-norwegian.mp4
+- cinderella-1950-persian.mp4
+- cinderella-1950-polish.mp4
+- cinderella-1950-portuguese.mp4
+- cinderella-1950-romanian.mp4
+- cinderella-1950-russian.mp4
+- cinderella-1950-serbian.mp4
+- cinderella-1950-slovak.mp4
+- cinderella-1950-spanish.mp4
+- cinderella-1950-swedish.mp4
+- cinderella-1950-tamil.mp4
+- cinderella-1950-teochew.mp4
+- cinderella-1950-thai.mp4
+- cinderella-1950-turkish.mp4
+- cinderella-1950-ukrainian.mp4
+- cinderella-1950-uyghur.mp4
+- cinderella-1950-vietnamese.mp4
